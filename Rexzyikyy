@@ -1,0 +1,63 @@
+<!DOCTYPE html><html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>VXz Unbanned (UI Demo)</title>
+<style>
+  *{box-sizing:border-box;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial}
+  body{
+    margin:0;min-height:100vh;color:#eaeaea;
+    background:radial-gradient(60% 40% at 50% 0%, #1a1a1a 0%, #070707 60%, #000 100%);
+  }
+  .statusbar{height:28px}
+  .container{max-width:420px;margin:0 auto;padding:18px}
+  .title{letter-spacing:3px;color:#ff3b3b;font-weight:700;margin:6px 0 18px}.card{ background:linear-gradient(180deg,#0e0e0e,#0a0a0a); border-radius:18px; padding:18px; box-shadow:0 0 40px rgba(255,0,0,.15), inset 0 0 0 1px rgba(255,255,255,.04); }
+
+.avatar-wrap{display:flex;justify-content:center;margin-top:4px} .avatar{ width:140px;height:140px;border-radius:50%;overflow:hidden; box-shadow:0 0 30px rgba(255,0,0,.35); border:3px solid rgba(255,60,60,.7); } .avatar img{width:100%;height:100%;object-fit:cover}
+
+.appname{margin:14px 0 18px;text-align:center;font-size:22px;font-weight:600}
+
+label{display:block;margin:14px 0 6px;color:#bfbfbf;font-size:13px} .input, select{ width:100%;padding:14px 14px;border-radius:12px; background:#0b0b0b;border:1px solid rgba(255,255,255,.06); color:#eaeaea;outline:none; } .input::placeholder{color:#6f6f6f}
+
+.btn{ width:100%;margin-top:18px;padding:14px 16px;border-radius:14px;border:0; color:#fff;font-weight:800;letter-spacing:1px;font-size:16px; background:linear-gradient(90deg,#ff2f2f,#ff2fb1); box-shadow:0 10px 30px rgba(255,47,120,.35); cursor:pointer; }
+
+.note{margin-top:12px;text-align:center;color:#bfbfbf;font-size:13px} .vip{margin-top:8px;text-align:center;letter-spacing:1px;font-size:12px;color:#9f9f9f}
+
+.footerbar{height:60px} </style>
+
+</head>
+<body>
+  <div class="statusbar"></div>
+  <div class="container">
+    <div class="title">𝙐𝙉𝘽𝘼𝙉𝙉𝙀𝘿 𝘽𝙔 𝙍𝙄𝙕𝙕𝙔</div><div class="card">
+  <div class="avatar-wrap">
+    <!-- GANTI src DENGAN FILE GAMBAR KAMU -->
+    <div class="avatar"><img src="https://i.ibb.co.com/Zpr4R9Qk/IMG-20251213-061606-537.jpg" alt="logo" /></div>
+  </div>
+
+  <div class="appname">𝐑𝐈𝐙𝐙𝐘 𝐔𝐍𝐁𝐀𝐍𝐃 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏</div>
+
+  <label>Nomor :</label>
+  <input class="input" type="tel" placeholder="62xxxxxxxxxx" />
+
+  <label>Pilih Opsi Band</label>
+  <select>
+    <option>ѕραм тιηʝαυ</option>
+    <option>ρєямαηєη нαя∂</option>
+    <option>ρєямαηєη ℓυмυт'</option>
+  </select>
+
+  <!-- DEMO ONLY: tidak melakukan unban sungguhan -->
+  <button class="btn" onclick="demo()">UNBANNED</button>
+
+  <div class="note">Compose terbuka.</div>
+  <div class="vip">VIP METODE UNBANNED APPS</div>
+</div>
+
+  </div>
+  <div class="footerbar"></div><script>
+  function demo(){
+    alert('𝗞𝗔𝗟𝗢 𝗠𝗔𝗨 𝗨𝗡𝗕𝗔𝗗 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗗𝗠 𝗧𝗜𝗞𝗧𝗢𝗞  @ryzzxmodz122 .');
+  }
+</script></body>
+</html>
